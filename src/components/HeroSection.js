@@ -10,7 +10,7 @@ function HeroSection(){
     return (
         <div className='hero-container'>
     
-            <img className='wolf-image' src="/images/wolf.png" alt='wolf'/>
+            <img className='wolf-image' src="/images/wolf_1.png" alt='wolf'/>
             
          </div>
     )

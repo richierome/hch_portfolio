@@ -34,6 +34,7 @@ function Footer(props){
               </CustomLink> 
         </div>
         <br/>
+        <br/>
         <small class='website-rights'>&copy;{currentYear}</small>
       </div>
 
