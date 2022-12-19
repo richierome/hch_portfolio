@@ -1,13 +1,27 @@
 import React from 'react';
 import '../../App.css'
-import Footer from '../Footer';
+// import Social from '../Social';
+// import '../Social.css';
+
+
 
 
 export default function About(){
     return (
         <>
-        <h1 className='contact'>Coming Soon....</h1>
-        <Footer />
+       
+        <h1 className='contact'>
+            
+            hell_city_havoc_official
+            
+
+        {/* <Social /> */}
+
+        </h1>
+        
+
+        
+        
         </>
     )
 }
