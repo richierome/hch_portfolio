@@ -9,7 +9,7 @@ function Cards(){
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem
-                src='images/band.png'
+                src='images/razn_hell.jpg'
                 text='HELL CITY HAVOC'
                 label='About'
                 path='/about'

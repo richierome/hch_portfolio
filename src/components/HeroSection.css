@@ -26,6 +26,16 @@
     align-items: center;
     /* object-fit: contain; */
   }
+
+  .razn-hell {
+    height: 100%;
+    width: 115%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* object-fit: contain; */
+  }
   
   
    .hero-container {

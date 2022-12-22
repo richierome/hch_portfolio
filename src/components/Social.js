@@ -24,13 +24,13 @@ function Social(props){
     
     return (
         <div className='social-container'>
-          <div class='social-media-wrap'>
+          <div class='social-ig-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
                 href='https://www.instagram.com/hell_city_havoc_official/'
                 target='_blank'
                 aria-label='Instagram'
                 >
-                <i class='fab fa-instagram' />
+                <i class=' ig-icon fab fa-instagram' />
               </CustomLink> 
         </div>
        
