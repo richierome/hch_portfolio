@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css'
+import '../HeroSection.css';
 import HeroAbout from '../HeroAbout';
 // import HeroSection from '../HeroSection';
 
