@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Bat from './components/bat/Bat';
+
+
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -9,7 +12,12 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
-   <>
+    <div className="App">
+      
+      <Bat/> 
+      <Bat/> 
+      
+  
     <Router>
       <Navbar />
       <Routes>
@@ -18,7 +26,9 @@ function App() {
         <Route path='/contact' exact element = {<Contact/>}/>
       </Routes>
     </Router>
-   </>
+    
+    </div>
+   
   );
 }
 export default App;
