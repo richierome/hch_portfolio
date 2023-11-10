@@ -3,13 +3,13 @@
   }
   
   /* Layout */
-  .wrapper-halloween2 {
+  .wrapper-halloween {
     width: 700px;
     position: relative;
     margin: auto;
   }
   
-  .bat-overlay1 {
+  .bat-overlay {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -20,22 +20,22 @@
   }
   
   /*  Bat */
-  .bat-overlay1 svg {
+  .bat-overlay svg {
     width: 100%;
     height: 84vh;
   }
   
-  .eye1 {
+  .eye {
     fill: var(--basecolor);
   }
   
-  .shadow1 {
+  .shadow {
     filter: blur(6px);
     opacity: 0.2;
   }
   
-  .bat1 {
-    animation: move 12s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  .bat {
+    animation: move 10s infinite ease-in-out normal;
     transform-origin: 78% 29%;
   }
   
@@ -57,7 +57,7 @@
     }
   }
   
-  .wing1 {
+  .wing {
     transform-origin: 50% 50%;
     animation: wing 1s infinite ease-in-out normal;
   }
@@ -74,12 +74,12 @@
     }
   }
   
-  .wing2 {
+  .wing1 {
     transform-origin: 50% 50%;
     animation: wing1 1s infinite ease-in-out normal;
   }
   
-  @keyframes wing2 {
+  @keyframes wing1 {
     0% {
       transform: translate(0px, 0px) scale(1) rotate(0deg);
     }
@@ -92,12 +92,12 @@
   }
   
   @media screen and (min-width: 500px) {
-    .bat1 {
+    .bat {
       scale: 0.7;
     }
   }
   @media screen and (max-width: 500px) {
-    .bat1 {
+    .bat {
       scale: 1.1;
     }
   }

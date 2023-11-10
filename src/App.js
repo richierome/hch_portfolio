@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Bat from './components/bat/Bat';
+import Bat2 from './components/bat/Bat2';
 
 
 import Navbar from './components/Navbar';
@@ -14,8 +15,8 @@ function App() {
   return (
     <div className="App">
       
-      <Bat/> 
-      <Bat/> 
+      <Bat/>
+      <Bat2/> 
       
   
     <Router>
