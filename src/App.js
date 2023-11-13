@@ -1,9 +1,5 @@
 import React from 'react';
 import './App.css';
-import Bat from './components/bat/Bat';
-import Bat2 from './components/bat/Bat2';
-
-
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
@@ -14,11 +10,6 @@ import Contact from './components/pages/Contact';
 function App() {
   return (
     <div className="App">
-      
-      <Bat/>
-      <Bat2/> 
-      
-  
     <Router>
       <Navbar />
       <Routes>

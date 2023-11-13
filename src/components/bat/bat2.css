@@ -35,8 +35,8 @@
   }
   
   .bat {
-    animation: move 10s infinite ease-in-out normal;
-    transform-origin: 78% 29%;
+    animation: move 9s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55) normal;
+    transform-origin: 30% 80%;
   }
   
   @keyframes move {
