@@ -118,6 +118,14 @@
       margin-top: -150px;
     }
   }
+
+  @media screen and (max-width: 820px){
+    .about-title{
+      font-size: 35px;
+    margin-left: 10px;
+    }
+    
+  }
   
   @media screen and (max-width: 768px) {
     .hero-container > h1 {
