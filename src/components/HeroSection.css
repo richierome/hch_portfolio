@@ -76,10 +76,38 @@
   .fa-play-circle {
     margin-left: 4px;
   }
-  
-  @media screen and (min-width: 1400px){
+
+  @media screen and (min-width: 1700px){
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+    
     .wolf-image{
       padding:0px 150px
+    }
+  }
+  
+  @media screen and (min-width: 1400px){
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+    .cards__container {
+      width: 90%;
+    }
+    .wolf-image,.razn-hell{
+      padding:0px 150px;
+      width: 90%;
+    }
+    .title-link{
+      font-size: 90%;
+    }
+
+    .about-title{
+      font-size: 35px;
+      margin-left: 20px;
+
     }
   }
 

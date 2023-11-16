@@ -33,6 +33,15 @@ function Footer(props){
                 <i class='fab fa-instagram' />
               </CustomLink> 
         </div>
+        <div class='social-media-wrap'>
+                <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
+                href=''
+                target='_blank'
+                aria-label='Spotify'
+                >
+                <i class='fab fa-spotify' />
+              </CustomLink> 
+        </div>
         <br/>
         <br/>
         <small class='website-rights'>&copy;{currentYear}</small>
