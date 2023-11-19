@@ -6,7 +6,7 @@ import '../Social.css';
 
 
 
-export default function About(){
+export default function Contact(){
     return (
         <>
     

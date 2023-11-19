@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' exact element = {<Home/>}/>
         <Route path='/about' exact element = {<About/>}/>
         <Route path='/contact' exact element = {<Contact/>}/>
+        
       </Routes>
     </Router>
     

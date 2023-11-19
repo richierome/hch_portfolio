@@ -35,7 +35,9 @@ function Footer(props){
         </div>
         <div class='social-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
-                href=''
+                href='
+                
+                https://giphy.com/gifs/owRSsSHHoVYFa/tile'
                 target='_blank'
                 aria-label='Spotify'
                 >
