@@ -9,10 +9,10 @@ function Secret() {
   const generateRandomCode = (length) => {
     const titles = [
       'INVOCATION', 'HELL CITY', 'SHALLOW GRAVE', 'GOTHIC QUARTER',
-      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC'
+      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC','H311*C1TY*H^V0C'
     ];
 
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(){}<>/';
     let result = '';
     const charactersLength = characters.length;
     for (let i = 0; i < length; i++) {
@@ -38,7 +38,7 @@ function Secret() {
     const interval = setInterval(() => {
       const newCode = generateRandomCode(10);
       setCode((prevCode) => prevCode + newCode);
-    }, 500); // Adjust the interval time (in milliseconds) here
+    }, 600); // Adjust the interval time (in milliseconds) here
 
     return () => clearInterval(interval);
   }, []);
