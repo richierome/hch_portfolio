@@ -8,8 +8,9 @@ function Secret() {
 
   const generateRandomCode = (length) => {
     const titles = [
-      'INVOCATION', 'HELL CITY', 'SHALLOW GRAVE', 'GOTHIC QUARTER',
-      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC','H311*C1TY*H^V0C'
+    'function EP(){H311*C!TY*H^V0C}', 'INVOCATION', 'HELL CITY', 'SHALLOW GRAVE', 'GOTHIC QUARTER',
+      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC','const GenerateHell =()=>{H311*C!TY*H^V0C}'
+      
     ];
 
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(){}<>/';
