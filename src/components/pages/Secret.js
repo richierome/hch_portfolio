@@ -9,7 +9,7 @@ function Secret() {
   const generateRandomCode = (length) => {
     const titles = [
       'INVOCATION', 'HELL CITY', 'SHALLOW GRAVE', 'GOTHIC QUARTER',
-      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE'
+      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC'
     ];
 
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
