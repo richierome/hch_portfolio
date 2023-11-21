@@ -38,7 +38,7 @@ function Secret() {
     const interval = setInterval(() => {
       const newCode = generateRandomCode(10);
       setCode((prevCode) => prevCode + newCode);
-    }, 400); // Adjust the interval time (in milliseconds) here
+    }, 500); // Adjust the interval time (in milliseconds) here
 
     return () => clearInterval(interval);
   }, []);
