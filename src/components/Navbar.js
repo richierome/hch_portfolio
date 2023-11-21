@@ -75,6 +75,7 @@ import './Navbar.css';
 import Bat from './bat/Bat';
 import Bat2 from './bat/Bat2';
 
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -127,7 +128,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/About'
                 className='nav-links'
                 onClick={() => {
                   closeMobileMenu();
@@ -141,6 +142,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+
           </ul>
         </div>
       </nav>

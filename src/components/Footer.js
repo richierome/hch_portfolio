@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from "react-router-dom";
+import About from './pages/About';
 
 const CustomLink = (props) => {
   const {children, className, path, href, target} = props
@@ -33,7 +34,7 @@ function Footer(props){
                 <i class='fab fa-instagram' />
               </CustomLink> 
         </div>
-        <div class='social-media-wrap'>
+        {/* <div class='social-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
                 href='
                 
@@ -43,6 +44,15 @@ function Footer(props){
                 >
                 <i class='fab fa-spotify' />
               </CustomLink> 
+        </div> */}
+
+<div class='social-media-wrap'>
+<CustomLink
+          className='website-rights'
+          path='/secret' // Assuming '/about' is the path to your About page
+        >
+          <i class='fab fa-spotify' />
+        </CustomLink>
         </div>
         <br/>
         <br/>
