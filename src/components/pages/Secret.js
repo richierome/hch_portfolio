@@ -9,7 +9,8 @@ function Secret() {
   const generateRandomCode = (length) => {
     const titles = [
     'function EP(){H311*C!TY*H^V0C}', 'INVOCATION', 'HELL CITY', 'SHALLOW GRAVE', 'GOTHIC QUARTER',
-      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC','const GenerateHell =()=>{H311*C!TY*H^V0C}'
+      'DEAD CATS', 'SILVER SCREEN SCREAMS', 'DEATH BY FIRE', 'HELL CITY HAVOC','const GenerateHell = () => {H311*C!TY*H^V0C}'
+      ,'const generateHell = (RiverSide) => {H311*C!TY*H^V0C}', 'I.E.', 'D3C3MB3R C0M!NG F!R3'
       
     ];
 
@@ -39,7 +40,7 @@ function Secret() {
     const interval = setInterval(() => {
       const newCode = generateRandomCode(10);
       setCode((prevCode) => prevCode + newCode);
-    }, 600); // Adjust the interval time (in milliseconds) here
+    }, 700); // Adjust the interval time (in milliseconds) here
 
     return () => clearInterval(interval);
   }, []);
