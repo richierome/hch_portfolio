@@ -53,7 +53,7 @@ function Secret() {
         <div className='terminal'>
           <div className='terminal-text'>
             <span className='prompt'>666</span>&nbsp;
-            <span className='command'>System Engaged /Generate Hell/ You're Fucked/</span>
+            <span className='command'>--System_Engaged--/--Code_Hell_Executed--/--You're_Fucked--/</span>
             <span className='prompt'>666</span>&nbsp;
             <br />
             <span>{code}</span>
