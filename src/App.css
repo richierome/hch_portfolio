@@ -7,7 +7,6 @@
 }
 
 .home,
-/* .about, */
 .contact,
 .sign-up {
   display: flex;
@@ -16,31 +15,6 @@
   justify-content: center;
   font-size: 3rem;
 }
-
-/* .about {
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-} */
-
-/* 
-.about-title{
-  line-height: 2.5rem;
-  padding: 25px 15px 75px;
-  
-  
-} */
-
-
-/* .home {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
 
 .about {
   /* background-image: url('/images/img-2.jpg'); */
@@ -65,29 +39,14 @@
 }
 
 .secret-head {
-  /* background-image: url('/images/img-2.jpg'); */
-  /* background-color: #000000;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh; /* Set the height to full viewport height */
   background-color: #000; /* Set the background color */
-  color: #000; /* Set text color */
-
-  
-  
-  
+  color: #000; /* Set text color */ 
 }
-
-
-
-
 
 .sign-up {
   /* background-image: url('/images/img-8.jpg'); */
@@ -107,7 +66,7 @@
   /* background-color: white; */
   flex-direction: column;
 }
-
+/* 
 @media screen and (max-width: 320px) {
   .about .secret-head{
     height: 100vh;
@@ -116,12 +75,50 @@
     font-size: 3rem;
   }
 
+} */
+@media screen and (max-width: 2000px) {
+  .contact{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+  }
+}
+
+
+@media screen and (max-width: 1700px) {
+  .contact{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 1400px) {
+  .contact{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  .contact{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 820px) {
 
     .title-link {
-      font-size: 30px;
+      font-size: 50px;
     }
     .about-title .secret-body{
       font-size: 25px;
@@ -141,6 +138,16 @@
       font-size: 3rem;
     }
     
+  }
+
+  @media screen and (max-width: 320px) {
+    .about .secret-head{
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+  
   }
 
   

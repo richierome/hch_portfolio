@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css'
 import Social from '../Social';
 import '../Social.css';
+import HeroAbout from '../HeroAbout';
 
 
 

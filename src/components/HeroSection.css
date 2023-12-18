@@ -106,6 +106,16 @@
   .fa-play-circle {
     margin-left: 4px;
   }
+  @media screen and (min-width: 2100px){
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+    
+    .wolf-image{
+      padding:0px 150px
+    }
+  }
 
   @media screen and (min-width: 1700px){
     .hero-container > h1 {

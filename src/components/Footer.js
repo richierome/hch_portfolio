@@ -34,24 +34,24 @@ function Footer(props){
                 <i class='fab fa-instagram' />
               </CustomLink> 
         </div>
-        {/* <div class='social-media-wrap'>
+        <div class='social-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
-                href='
-                
-                https://giphy.com/gifs/owRSsSHHoVYFa/fullscreen'
+                href='https://open.spotify.com/album/6fmoDU7G3qv9f26xOeQBse?si=9bcpe3HPQjCCFL2Lu22qcA&context=spotify%3Aalbum%3A6fmoDU7G3qv9f26xOeQBse'
                 target='_blank'
                 aria-label='Spotify'
                 >
                 <i class='fab fa-spotify' />
               </CustomLink> 
-        </div> */}
+        </div>
 
 <div class='social-media-wrap'>
 <CustomLink
           className='website-rights'
-          path='/secret' // Assuming '/about' is the path to your About page
+          path='/secret' // this leads to '/secret' is the path to your Secret page
         >
-          <i class='fab fa-spotify' />
+          
+          {/* <i class='fab fa-spotify' /> */}
+          <i class="fas fa-code" ></i>
         </CustomLink>
         </div>
         <br/>
