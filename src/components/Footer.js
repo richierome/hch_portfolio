@@ -25,15 +25,7 @@ function Footer(props){
     const currentYear = new Date().getFullYear()
     return (
         <div className='footer-container'>
-          <div class='social-media-wrap'>
-                <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
-                href='https://www.instagram.com/hell_city_havoc_official/'
-                target='_blank'
-                aria-label='Instagram'
-                >
-                <i class='fab fa-instagram' />
-              </CustomLink> 
-        </div>
+         
         <div class='social-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
                 href='https://open.spotify.com/album/6fmoDU7G3qv9f26xOeQBse?si=9bcpe3HPQjCCFL2Lu22qcA&context=spotify%3Aalbum%3A6fmoDU7G3qv9f26xOeQBse'
@@ -41,6 +33,16 @@ function Footer(props){
                 aria-label='Spotify'
                 >
                 <i class='fab fa-spotify' />
+              </CustomLink> 
+        </div>
+
+        <div class='social-media-wrap'>
+                <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
+                href='https://www.instagram.com/hell_city_havoc_official/'
+                target='_blank'
+                aria-label='Instagram'
+                >
+                <i class='fab fa-instagram' />
               </CustomLink> 
         </div>
 
