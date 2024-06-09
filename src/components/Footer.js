@@ -28,7 +28,7 @@ function Footer(props){
          
         <div class='social-media-wrap'>
                 <CustomLink class='website-rights'  path={props.path} href={props.href} target={props.target}
-                href='https://open.spotify.com/album/6fmoDU7G3qv9f26xOeQBse?si=9bcpe3HPQjCCFL2Lu22qcA&context=spotify%3Aalbum%3A6fmoDU7G3qv9f26xOeQBse'
+                href='https://open.spotify.com/album/5wpt0wY1XwrDx5PPnxlWpO?si=AzVEx5lrSxGZbJEK5A9F_g'
                 target='_blank'
                 aria-label='Spotify'
                 >
@@ -46,8 +46,9 @@ function Footer(props){
               </CustomLink> 
         </div>
 
-<div class='social-media-wrap'>
-<CustomLink
+        <div class='social-media-wrap'>
+
+        <CustomLink
           className='website-rights'
           path='/secret' // this leads to '/secret' is the path to your Secret page
         >
