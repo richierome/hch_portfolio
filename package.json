@@ -13,7 +13,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "switch to nvm use v16 and use npm start to run server",
+    "note": "switch to nvm use v16",
+    "alt": "npm start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
