@@ -1,0 +1,104 @@
+:root {
+    --basecolor: hsl(20, 70%, 40%);
+  }
+  
+  /* Layout */
+  .wrapper-halloween2 {
+    width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .bat-overlay1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+  }
+  
+  /*  Bat */
+  .bat-overlay1 svg {
+    width: 100%;
+    height: 84vh;
+  }
+  
+  .eye1 {
+    fill: var(--basecolor);
+  }
+  
+  .shadow1 {
+    filter: blur(6px);
+    opacity: 0.2;
+  }
+  
+  .bat1 {
+    animation: move 12s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform-origin: 78% 29%;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(150px, 90px) rotate(10deg);
+    }
+    25% {
+      transform: translate(-150px, 90px) rotate(-10deg);
+    }
+    50% {
+      transform: translate(-160px, -80px) rotate(10deg);
+    }
+    75% {
+      transform: translate(-140px, -100px) rotate(-10deg);
+    }
+    100% {
+      transform: translate(150px, 90px) rotate(10deg);
+    }
+  }
+  
+  .wing1 {
+    transform-origin: 50% 50%;
+    animation: wing 1s infinite ease-in-out normal;
+  }
+  
+  @keyframes wing {
+    0% {
+      transform: translate(0px, 0px) scale(1) rotate(0deg);
+    }
+    50% {
+      transform: translate(0px, 0px) scaleX(0.5) rotate(-25deg);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1) rotate(0deg);
+    }
+  }
+  
+  .wing2 {
+    transform-origin: 50% 50%;
+    animation: wing1 1s infinite ease-in-out normal;
+  }
+  
+  @keyframes wing2 {
+    0% {
+      transform: translate(0px, 0px) scale(1) rotate(0deg);
+    }
+    50% {
+      transform: translate(0px, 0px) scaleX(0.5) rotate(25deg);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1) rotate(0deg);
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .bat1 {
+      scale: 0.7;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .bat1 {
+      scale: 1.1;
+    }
+  }
+  
