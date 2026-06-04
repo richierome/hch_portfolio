@@ -21,31 +21,21 @@ export default function Contact() {
 
   ];
 
-  const scrollLeft = () => {
+    const scrollLeft = () => {
   if (merchRef.current) {
-    const item = merchRef.current.querySelector('.merch-photo');
-    const gap = 20;
-
-    if (item) {
-      merchRef.current.scrollBy({
-        left: -(item.offsetWidth + gap),
-        behavior: 'smooth'
-      });
-    }
+    merchRef.current.scrollBy({
+      left: -merchRef.current.offsetWidth,
+      behavior: 'smooth'
+    });
   }
 };
 
 const scrollRight = () => {
   if (merchRef.current) {
-    const item = merchRef.current.querySelector('.merch-photo');
-    const gap = 20;
-
-    if (item) {
-      merchRef.current.scrollBy({
-        left: item.offsetWidth + gap,
-        behavior: 'smooth'
-      });
-    }
+    merchRef.current.scrollBy({
+      left: merchRef.current.offsetWidth,
+      behavior: 'smooth'
+    });
   }
 };
 
