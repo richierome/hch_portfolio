@@ -39,6 +39,9 @@ function Secret() {
     'HOUNDS OF HELL',
     'SWEET 16',
     'LET IT DIE',
+    'CALIFORNIA',
+    'SOUTHERN CALIFORNIA',
+    'RIVERSIDE'
 
   ];
 
@@ -61,7 +64,7 @@ function Secret() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const newLines = Array.from({ length: 2 }, () => generateRandomCodeLine());
+      const newLines = Array.from({ length: 3 }, () => generateRandomCodeLine());
 
       setCodeLines((prevLines) => {
         const updatedLines = [...prevLines, ...newLines];
@@ -69,7 +72,7 @@ function Secret() {
         // Keep enough lines to force the whole page content upward
         return updatedLines.slice(-400);
       });
-    }, 600);
+    }, 900);
 
     return () => clearInterval(interval);
   }, []);
