@@ -8,8 +8,8 @@ export default function Contact() {
   const merchRef = useRef(null);
 
   const merchItems = [
-    '/images/EP2.png',
-    '/images/EP1.png',
+    '/images/ep2.png',
+    '/images/ep1.png',
     '/images/harlot.png',
     '/images/taint.png',
      '/images/wolfblack.png',
